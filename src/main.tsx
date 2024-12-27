@@ -6,12 +6,12 @@ import GiftList from './routes/GiftList';
 import Gift from './routes/Gift';
 import GiftListById from './routes/GiftListById';
 import { Authenticator } from '@aws-amplify/ui-react';
-import { Amplify } from 'aws-amplify';
+import { Amplify, ResourcesConfig } from 'aws-amplify';
 import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports.json';
 import Login from './routes/Login';
 
-Amplify.configure(awsExports);
+Amplify.configure(awsExports as ResourcesConfig);
 
 createRoot(document.getElementById('root')!).render(
   <Authenticator.Provider>
