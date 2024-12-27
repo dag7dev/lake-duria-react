@@ -1,9 +1,0 @@
-export const outputs = {
-    Auth: {
-      Cognito: {
-        userPoolClientId: 'yourUserPoolClientId',
-        userPoolId: 'yourUserPoolId',
-      }
-    }
-  };
-  

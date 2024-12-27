@@ -1,0 +1,15 @@
+{
+	"Auth": {
+		"Cognito": {
+			"userPoolClientId": "XXXXXXXXXXXXXXXXXXXXX",
+			"userPoolId": "XXXXXXXXXXXXXXXXXXXXX"
+		}
+	},
+	"API": {
+		"REST": {
+			"beta": {
+				"endpoint": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+			}
+		}
+	}
+}
